@@ -38,7 +38,7 @@ function renderSports () {
     $ul.append($li);
   });
 
-  $('body').html($ul);
+  $('body').append($ul);
 }
 
 sports.fetch().then(renderSports);

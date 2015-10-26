@@ -59,7 +59,7 @@ function renderSports() {
     $ul.append($li);
   });
 
-  (0, _jquery2['default'])('body').html($ul);
+  (0, _jquery2['default'])('body').append($ul);
 }
 
 sports.fetch().then(renderSports);
