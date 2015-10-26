@@ -51,8 +51,6 @@ function renderSports() {
 
   var $ul = (0, _jquery2['default'])('<ul></ul>');
 
-  _underscore2['default'].sortBy(sports, 'sports.funScore');
-
   sports.each(function (sport) {
     var dataObject = sport.toJSON();
     var $li = (0, _jquery2['default'])((0, _sports_template2['default'])(dataObject));

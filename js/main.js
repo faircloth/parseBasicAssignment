@@ -29,8 +29,6 @@ sports.comparator = 'funScore';
 function renderSports () {
 
   let $ul = $('<ul></ul>');
-    
-  _.sortBy(sports, 'sports.funScore');
 
   sports.each(function(sport){
     let dataObject = sport.toJSON();
